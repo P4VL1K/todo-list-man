@@ -9,7 +9,7 @@ import {Menu} from "@mui/icons-material";
 
 export type FilterType = 'all' | 'completed' | 'active'
 
-type TodolistsType = {
+export type TodolistsType = {
     id: string
     title: string
     filter: FilterType
@@ -167,3 +167,6 @@ function App() {
 }
 
 export default App;
+
+export class TodolistType {
+}
